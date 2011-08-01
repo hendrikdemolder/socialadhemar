@@ -1,0 +1,86 @@
+<HTML>
+
+<script>
+    function load(){
+                 dojo.xhrGet({
+                                 url: "/api/helloworld", 
+                                 load: function(newContent){
+                                          var resultNode = dojo.byId("bla");
+                                          resultNode.textContent = newContent;
+                                  }
+});
+}
+</script>
+<head>
+<link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+<body onload=load()>
+
+<div class="main">
+<div class=header>
+<h1 id='bla'> test</h1>
+</div>
+
+<div class=body>
+
+  <div class=center>
+  <div class=part1>
+  <div class=maincenter>
+      <div class=main-image>
+      <img class='image' src=main.jpg>
+      <div class = mainintro>
+          <div class=welkom>
+          Welkom to Social<br/>
+          Adhemar
+          </div>
+      </div>
+      <div class = maininfoblock>
+         <div class=infoblock>
+           <div class=infoblock_title>
+            Welkom to the this test
+           </div>
+           <div class=infoblock_text>
+           Bla bla bla <br/>
+           bla bal <br/>
+           </div>
+           <div class=infoblock_button>
+               <div class="buttonimpl" role="button" onclick="login();" tabindex="0">
+                   <div class="buttontext">Register</div>
+               </div>
+           </div>
+         </div>
+
+
+      </div>
+     </div>
+    <div class=info>
+         <div class=info_left>
+              <div class=info_left_image> <img class='left_image' src=student.jpg /></div>
+              <div class=info_left_leerling> Leerling </div>
+              <div class=info_left_text>Leerlingen kunnen eenvoudig zelf oefeningen maken, krijgen en online uitleg krijgen</div>
+         </div>          
+         <div class=info_center>
+              <div class=info_center_image> <img class='center_image' src=therapeute.jpg /></div>
+              <div class=info_center_therapeute> Therapeute </div>
+              <div class=info_center_text>Therapeuten zoals logopedisten kunnen oefeningen maken, hun patienten beheren en coordineren met de school</div>
+         </div>          
+  
+         <div class=info_right>
+             <div class=info_right_image> <img class='center_image' src=school.jpg /></div>
+              <div class=info_right_school> School</div>
+              <div class=info_right_text>Scholen kunnen contacten leggen met the therapeuten, kinderen helpen of nieuwe oefeningen geven</div>
+  
+          </div>
+  </div>
+
+  </div>
+  </div> 
+   </div>
+</div>
+</div>
+
+</body>
+<script src="http://ajax.googleapis.com/ajax/libs/dojo/1.6.0/dojo/dojo.xd.js" type="text/javascript"></script>
+
+
+</HTML>

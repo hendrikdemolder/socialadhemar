@@ -1,0 +1,234 @@
+.header{
+    box-shadow: none;
+    height: 72px;
+    background-color: #F1F1F1;
+    background-image: none;
+
+}
+
+.body{
+    margin: 0 15px 15px 15px;
+    color: white;
+}
+
+.part1{
+    border-bottom: 1px solid #EEE;
+}
+
+.maincenter{
+min-width: 896px;
+max-width: 960px;
+background-color: white;
+width: 100%
+overflow: hidden;
+}
+
+.center{
+max-width: 960px;
+min-width:896px;
+margin: 0 auto;
+}
+
+.maintext{
+color:black;
+}
+.main-image{
+width: 960px;
+height: 630px;
+position: relative;
+}
+
+.mainintro{
+padding-top: 160px;
+}
+
+.welkom{
+color: #666;
+font-size:30px;
+font-family: 'Droid Sans', arial, serif;
+margin-bottom: 20px;
+position: relative;
+width: auto;
+}
+
+.image{
+position: absolute;
+top:0;
+left:0;
+}
+
+.maininfoblock{
+padding-top: 100px;
+}
+
+.infoblock{
+position: relative;
+max-width: 280px;
+min-width: 280px;
+float: right;
+border 1px solid #4C4C4C;
+opacity:.7;
+background-color: #1F1F1F;
+padding: 25px;
+box-shadow: none;
+border-radius: 0;
+
+}
+
+.infoblock_title{
+margin: 0 8px 0 0;
+text-align: center;
+vertical-align: middle;
+white-space: nowrap;
+font: 70% arial,sans-serif;
+border-radius: 3px;
+margin-bottom: 5px;
+font-size:14px;
+font-weight:bold;
+color: white;
+}
+
+.infoblock_text{
+margin-top: 0;
+padding-bottom: 10px;
+font-size: 15px;
+font-weight: normal;
+margin-left: 5px;
+}
+
+.infoblock_button{
+margin-top: 10px;
+width: 100%;
+text-align: center;
+}
+
+.buttonimpl{
+border:0;
+padding: 0;
+cursor: pointer;
+display: inline-block;
+}
+
+.buttontext{
+background-color: #CF4236;
+border-left: 8px soldid #CF4236;
+border-right: 8px soldid #CF4236;
+border-top: 8px soldid #CF4236;
+border-bottom: 8px soldid #CF4236;
+padding: 5px;
+}
+
+.info{
+
+min-width: 896px;
+max-width:960px;
+padding:15px 0 15px 20px;
+position: absolute
+}
+.info_left{
+padding-top:10px;
+width: 33%;
+display: inline-block;
+vertical-align: top;
+}
+
+.info_center{
+padding-top:10px;
+width: 33%;
+display: inline-block;
+vertical-align: top;
+}
+
+.info_right{
+padding-top:10px;
+width: 33%;
+display: inline-block;
+vertical-align: top;
+
+}
+
+.info_left_image{
+width: 284px;
+height:214px;
+background-color: white;
+border: 1px solid #CDCDCD;
+display: table-cell;
+vertical-align: middle;
+}
+
+.info_left_text{
+color: #666;
+font-size: 15px;
+font-color: 
+width:290px;
+margin-top: 5px;
+margin-bottom:15px;
+font: sans-serif;
+}
+
+.info_left_leerling{
+color: #666;
+margin-top:10px;
+font-size:24px;
+margin-bottom:12px
+font-family: 'Droid Sans', arial, serif;
+text-allign: center;
+}
+.info_right_image{
+width: 284px;
+height:214px;
+background-color: white;
+border: 1px solid #CDCDCD;
+display: table-cell;
+vertical-align: middle;
+}
+
+.info_right_text{
+color: #666;
+font-size: 15px;
+font-color: 
+width:290px;
+margin-top: 5px;
+margin-bottom:15px;
+font: sans-serif;
+}
+
+.info_right_school{
+color: #666;
+margin-top:10px;
+font-size:24px;
+margin-bottom:12px
+font-family: 'Droid Sans', arial, serif;
+text-allign: center;
+}
+.info_center_image{
+width: 284px;
+height:214px;
+background-color: white;
+	border: 1px solid #CDCDCD;
+display: table-cell;
+vertical-align: middle;
+}
+
+.info_center_text{
+color: #666;
+font-size: 15px;
+font-color: 
+width:290px;
+margin-top: 5px;
+margin-bottom:15px;
+font: sans-serif;
+}
+
+.info_center_therapeute{
+color: #666;
+margin-top:10px;
+font-size:24px;
+margin-bottom:12px
+font-family: 'Droid Sans', arial, serif;
+text-allign: center;
+}
+
+
+
+
